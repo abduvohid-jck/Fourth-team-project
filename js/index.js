@@ -3,15 +3,15 @@ tailwind.config = {
       container: {
         center: true,
         width: {
-          DEFAULT: "",
-          desktop: "",
+          DEFAULT: "100%",
+          desktop: "1130px",
         },
         padding: {
-          DEFAULT: "",
+          DEFAULT: "23px",
         },
       },
       screens: {
-        desktop: "",
+        desktop: "1440px",
       },
     },
   };
