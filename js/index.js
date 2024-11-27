@@ -19,5 +19,8 @@ tailwind.config = {
     extends: {
       color: {},
     },
+    fontFamily: {
+      epilogue: "epilogue",
+    },
   },
 };

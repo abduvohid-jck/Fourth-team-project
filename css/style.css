@@ -1,0 +1,23 @@
+@font-face {
+  font-family: epilogue;
+  src: url(../assets/fonts/epilogue-font.woff);
+}
+section {
+  min-width: 375px;
+}
+header {
+  min-width: 375px;
+}
+.contact-btn {
+  transition: 0.3s ease-in-out;
+}
+.navbar-links {
+  transition: 0.3s ease-in-out;
+}
+.navbar-links:hover {
+  color: #ef6d58;
+}
+.contact-btn:hover{
+    background-color: white;
+    color: #ef6d58;
+}

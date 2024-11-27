@@ -9,11 +9,40 @@
     <title>Ringo</title>
   </head>
   <body>
-    <header></header>
+    <header class="pt-[16px] bg-[#28293E]">
+      <div class="container flex items-center justify-between">
+        <img src="./assets/icons/logo.svg" alt="Logo" />
+        <div class="hidden d:block">
+          <ul class="flex gap-[100px]">
+            <a href="#"><li class="text-white font-epilogue font-[400] text-[16px] navbar-links">About</li></a>
+            <a href="#"><li class="text-white font-epilogue font-[400] text-[16px] navbar-links">Services</li></a>
+            <a href="#"><li class="text-white font-epilogue font-[400] text-[16px] navbar-links">Pricing</li></a>
+            <a href="#"><li class="text-white font-epilogue font-[400] text-[16px] navbar-links">Blog</li></a>
+          </ul>
+        </div>
+        <button class="hidden d:block contact-btn font-[900] text-[14px] text-white bg-inherit pt-[18px] pb-[16px] px-[34px] border-[#FFFFFF4B] border-[1px] rounded-[6px] font-epilogue">CONTACT</button>
+        <img
+          class="d:hidden"
+          src="./assets/icons/hamburger-menu.svg"
+          alt="Hamburger menu icon"
+        />
+      </div>
+    </header>
     <main>
-      <section class="hero">
-        <div class="container border">
-          <p>Lorem ipsum dolor sit.</p>
+      <section class="hero pt-[80px] d:pt-[100px] d:pb-[66px] pb-[87px] bg-[#28293E]">
+        <div class="container text-center">
+          <h1
+            class="font-epilogue font-[800] text-[56px] d:text-[72px] text-[white] mb-[12px] d:mb-[24px] tracking-[-1px] d:tracking-[-2px]"
+          >
+            About Us
+          </h1>
+          <p
+            class="font-epilogue font-[400] text-[16px] leading-[32px] text-[#FFFFFFA3]"
+          >
+            Agency provides a full service range <br class="d:hidden"/>
+            including technical skills, design, <br />
+            business understanding.
+          </p>
         </div>
       </section>
     </main>
